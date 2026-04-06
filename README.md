@@ -4,9 +4,9 @@
 
 **Fluxo composto por 3 telas:**
 
-1. **Detalhamento da ocorrência** (`/lista-ocorrencias/lista-rastreadores`) — exibe os recursos alocados por base, os botões "Pausar"/"Despausar" e "Finalizar ocorrência".
-2. **Tela de confirmação** (`/lista-ocorrencias/lista-rastreadores/finalizada`) — exibe o texto "Ocorrência finalizada com sucesso" e a mensagem "A ocorrência foi encerrada e registrada no histórico.", com as opções "Voltar" e "Menu".
-3. **Lista de ocorrências** (`/lista-ocorrencias`) — onde a ocorrência encerrada passa a aparecer na seção "Histórico" com o badge "Resolvida".
+1. **Lista de ocorrências** (`/lista-ocorrencias`) — exibe as ocorrências ativas e o histórico de ocorrências encerradas. ![Tela 1 - Listagem Ocorrências](/fluxo1.png)
+2. **Detalhamento da ocorrência** (`/lista-ocorrencias/lista-rastreadores`) — exibe os recursos alocados por base, os botões "Pausar"/"Despausar" e "Finalizar ocorrência". ![Tela 2 - Detalhamento Ocorrência](/fluxo2.png)
+3. **Tela de confirmação** (`/lista-ocorrencias/lista-rastreadores/finalizada`) — exibe o texto "Ocorrência finalizada com sucesso" e a mensagem "A ocorrência foi encerrada e registrada no histórico.", com as opções "Voltar" e "Menu". ![Tela 3 - Finalização Confirmada](/fluxo3.png)
 
 **Contexto:** O usuário precisa encerrar uma ocorrência de incêndio após a situação ser controlada, registrando-a no histórico do sistema.
 
